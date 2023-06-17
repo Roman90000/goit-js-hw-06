@@ -1,5 +1,4 @@
 const counterValue = document.querySelector('#value');
-// counterValue.textContent = Number(0);
 
 const decrementBtn = document.querySelector('[data-action="decrement"]');
 const incrementBtn = document.querySelector('[data-action="increment"]');
