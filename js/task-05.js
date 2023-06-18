@@ -8,6 +8,7 @@ function inputEvent(event) {
     if (input.value.trim()) {
         
        return span.textContent = event.currentTarget.value;
-    };   
+    }; 
+    
       return  span.textContent = "Anonymous";   
 };
