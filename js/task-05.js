@@ -5,10 +5,9 @@ input.addEventListener("input", inputEvent);
 
 function inputEvent(event) {
 
-    if (input.value) {
-        span.textContent = event.currentTarget.value;
-    }
-    if (!input.value){
-        span.textContent = "Anonymous";
-    }    
-}
+    if (input.value.trim()) {
+        
+       return span.textContent = event.currentTarget.value;
+    };   
+      return  span.textContent = "Anonymous";   
+};
